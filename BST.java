@@ -29,7 +29,7 @@ public class BST {
 
     // Bu metod bir altta tanimlanan PrintOrderedStudentsTable metodu tarafindan kullanilmaktadir.
 
-    public Student[] GetOrderedStudents(){
+    public Student[] getOrderedStudents(){
       // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -40,9 +40,9 @@ public class BST {
     // yazdirmak isterseniz tablonun en ust satirinda ogrenci numarasi en kucuk ogrencinin; tablonun
     // en alt satirinda ise ogrenci numarasi en buyuk ogrencinin bilgilerini goreceksiniz.
 
-    public void PrintOrderedStudentsTable(){
+    public void printOrderedStudentsTable(){
         System.out.format("%-15s%-15s%-12s%-4s\n", "Name", "Surname", "ID", "GPA");
-        Student[] students = GetOrderedStudents();
+        Student[] students = getOrderedStudents();
         for (Student s: students){
             System.out.format("%-15s%-15s%-12d%.2f\n",
                     s.getName(), s.getSurname(), s.getID(), s.getGPA());
@@ -100,10 +100,10 @@ public class BST {
     }
 
 
-    public BSTNode Insert(Student[] students){
+    public BSTNode insert(Student[] students){
         BSTNode ret = null;
         for (Student s : students){
-            ret = Insert(s);
+            ret = insert(s);
         }
         return ret;
     }
@@ -111,17 +111,17 @@ public class BST {
     // Insert metodu ikili arama agacina anahtar olarak belirlenen veriye
     // gore agaca yeni eleman yerlestirmektedir.
 
-    public BSTNode Insert(Student s){
+    public BSTNode insert(Student s){
         if (keyType == "name"){
-            return InsertNameOrdered(s);
+            return insertNameOrdered(s);
         }
         if (keyType == "surname"){
-            return InsertSurnameOrdered(s);
+            return insertSurnameOrdered(s);
         }
         if (keyType == "GPA"){
-            return InsertGPAOrdered(s);
+            return insertGPAOrdered(s);
         }
-        return InsertIDOrdered(s);
+        return insertIDOrdered(s);
     }
 
 
@@ -130,7 +130,7 @@ public class BST {
     // baz alinarak eklenecektir. Bu metodu yazabilmek icin String kutuphanesinin compareTo
     // metodunu kullanmaniz gerekmektedir.
 
-    public BSTNode InsertNameOrdered(Student s){
+    public BSTNode insertNameOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -139,7 +139,7 @@ public class BST {
     // baz alinarak eklenecektir. Bu metodu yazabilmek icin String kutuphanesinin compareTo
     // metodunu kullanmaniz gerekmektedir.
 
-    public BSTNode InsertSurnameOrdered(Student s){
+    public BSTNode insertSurnameOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -147,7 +147,7 @@ public class BST {
     // Bu metod kullanilarak ikili arama agacina eklenen bir ogrenci agaca ogrenci not ortalamasi
     // baz alinarak eklenecektir.
 
-    public BSTNode InsertGPAOrdered(Student s){
+    public BSTNode insertGPAOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -155,7 +155,7 @@ public class BST {
     // Bu metod kullanilarak ikili arama agacina eklenen bir ogrenci agaca ogrenci numarasi
     // baz alinarak eklenecektir.
 
-    public BSTNode InsertIDOrdered(Student s){
+    public BSTNode insertIDOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
     
@@ -163,7 +163,7 @@ public class BST {
     // karakteri oldugunu kucuk harflerle ekrana yazdirir. Ipucu:
     // Bu metod 8 karakterli bir string dondurecek sekilde degistirilmelidir.
     // Bu metoddan proje aciklamalarinda bahsedilmemektedir.
-    public String Bonus(){
+    public String bonus(){
         return "";
     }
 

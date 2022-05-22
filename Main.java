@@ -21,26 +21,26 @@ public class Main {
         BST tree3 = new BST("surname");
         BST tree4 = new BST("GPA");
 
-        tree1.Insert(generateStudents());
-        tree2.Insert(generateStudents());
-        tree3.Insert(generateStudents());
-        tree4.Insert(generateStudents());
+        tree1.insert(generateStudents());
+        tree2.insert(generateStudents());
+        tree3.insert(generateStudents());
+        tree4.insert(generateStudents());
 
         System.out.println("Printing tree1 object:");
         System.out.println();
-        tree1.PrintOrderedStudentsTable();
+        tree1.printOrderedStudentsTable();
 
         System.out.println("Printing tree2 object:");
         System.out.println();
-        tree2.PrintOrderedStudentsTable();
+        tree2.printOrderedStudentsTable();
 
         System.out.println("Printing tree3 object:");
         System.out.println();
-        tree3.PrintOrderedStudentsTable();
+        tree3.printOrderedStudentsTable();
 
         System.out.println("Printing tree4 object:");
         System.out.println();
-        tree4.PrintOrderedStudentsTable();
+        tree4.printOrderedStudentsTable();
 
         // Asagidaki yorum satirina cevrilmis kodlar olusturdugumuz her bir agac objesi
         // icin o agaci temsil eden resim dosyasi olusturmaktadir. Bu kodlarin

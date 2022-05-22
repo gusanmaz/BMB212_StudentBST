@@ -158,5 +158,13 @@ public class BST {
     public BSTNode InsertIDOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
+    
+    // Bu metod Main fonksiyonu icinde olusturulan agaclarda saklanan ogrencilerin hangi cizgi dizinin
+    // karakteri oldugunu kucuk harflerle ekrana yazdirir. Ipucu:
+    // Bu metod 8 karakterli bir string dondurecek sekilde degistirilmelidir.
+    // Bu metoddan proje aciklamalarinda bahsedilmemektedir.
+    public String Bonus(){
+        return "";
+    }
 
 }

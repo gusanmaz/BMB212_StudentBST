@@ -1,6 +1,8 @@
 # Proje 6 (Ogrenci Ikili Arama Agaci)
 
-[Proje 6 Github Classroom Davet Linki](https://classroom.github.com/a/TfLcRNa5)
+[Proje 6 Github Classroom Davet Linki]([https://classroom.github.com/a/TfLcRNa5](https://classroom.github.com/a/0SmddpBg))
+
+**Son Gonderim (Commit) Tarihi: 29 Mayis 2022 23:59**
 
 * Bu projede ogrenci bilgileri (isim, soyisim, numara, not ortalamasi) ikili arama agacinda belirlenen anahtara gore saklanmaktadir.
 * Anahtar degeri isim, soyisim, numara veya not ortalamasi olabilmektedir. Projedeki tum Java kodlarini inceleyiniz ve yorumlari dikkatle

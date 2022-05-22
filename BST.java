@@ -73,23 +73,23 @@ public class BST {
         if ((node.left == null) && (node.right != null)){
             counter++;
             String newRulePrefix = "\tnull" + counter + " [shape=point];\n";
-            String newRule = "\t" + node.data.ToDotString() + " -> " + "null" + counter + ";";
+            String newRule = "\t" + node.data.toDotString() + " -> " + "null" + counter + ";";
             rules = rules + "\n" + newRulePrefix + newRule;
         }
 
         if (node.left != null){
-            String newRule = "\t" + node.data.ToDotString() + " -> " + node.left.data.ToDotString() + ";";
+            String newRule = "\t" + node.data.toDotString() + " -> " + node.left.data.toDotString() + ";";
             rules = rules + "\n" + newRule;
         }
         if (node.right != null){
-            String newRule = "\t" + node.data.ToDotString() + " -> " + node.right.data.ToDotString() + ";";
+            String newRule = "\t" + node.data.toDotString() + " -> " + node.right.data.toDotString() + ";";
             rules = rules + "\n" + newRule;
         }
 
         if ((node.right == null) && (node.left != null)){
             counter++;
             String newRulePrefix = "\tnull" + counter + " [shape=point];\n";
-            String newRule = "\t" + node.data.ToDotString() + " -> " + "null" + counter + ";";
+            String newRule = "\t" + node.data.toDotString() + " -> " + "null" + counter + ";";
             rules = rules + "\n" + newRulePrefix + newRule;
         }
 

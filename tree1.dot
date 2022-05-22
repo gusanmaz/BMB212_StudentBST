@@ -1,0 +1,19 @@
+strict digraph BST{
+	nodesep=1.5;
+	ranksep=0.5
+	"404\nPhilp Fry\n0.47" -> "200\nTuranga Leela\n3.52";
+	"404\nPhilp Fry\n0.47" -> "707\nDoctor Zoidberg\n2.95";
+	"200\nTuranga Leela\n3.52" -> "101\nBender Rodrigez\n1.01";
+	null1 [shape=point];
+	"200\nTuranga Leela\n3.52" -> null1;
+	"101\nBender Rodrigez\n1.01" -> "100\nHubert Farnsworth\n3.99";
+	"101\nBender Rodrigez\n1.01" -> "199\nZapp Brannigan\n0.0";
+	"707\nDoctor Zoidberg\n2.95" -> "500\nHermes Conrad\n2.5";
+	"707\nDoctor Zoidberg\n2.95" -> "809\nAmy Wong\n2.05";
+	null2 [shape=point];
+	"500\nHermes Conrad\n2.5" -> null2;
+	"500\nHermes Conrad\n2.5" -> "614\nKif Kroker\n3.27";
+	null3 [shape=point];
+	"809\nAmy Wong\n2.05" -> null3;
+	"809\nAmy Wong\n2.05" -> "999\nLord Nibbler\n4.0";
+}

@@ -321,7 +321,7 @@ public class BST {
     // baz alinarak eklenecektir. Bu metodu yazabilmek icin String kutuphanesinin compareTo
     // metodunu kullanmaniz gerekmektedir.
 
-    public BSTNode insertNameOrdered(Student s){
+    private BSTNode insertNameOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -330,7 +330,7 @@ public class BST {
     // baz alinarak eklenecektir. Bu metodu yazabilmek icin String kutuphanesinin compareTo
     // metodunu kullanmaniz gerekmektedir.
 
-    public BSTNode insertSurnameOrdered(Student s){
+    private BSTNode insertSurnameOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -338,7 +338,7 @@ public class BST {
     // Bu metod kullanilarak ikili arama agacina eklenen bir ogrenci agaca ogrenci not ortalamasi
     // baz alinarak eklenecektir.
 
-    public BSTNode insertGPAOrdered(Student s){
+    private BSTNode insertGPAOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
 
@@ -346,7 +346,7 @@ public class BST {
     // Bu metod kullanilarak ikili arama agacina eklenen bir ogrenci agaca ogrenci numarasi
     // baz alinarak eklenecektir.
 
-    public BSTNode insertIDOrdered(Student s){
+    private BSTNode insertIDOrdered(Student s){
         // Metodun icini uygun sekilde doldurunuz.
     }
     

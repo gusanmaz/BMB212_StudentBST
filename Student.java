@@ -13,7 +13,7 @@ public class Student {
 
     // Bu metod BST sinifindaki toDOT metodunda kullanilmaktadir.
     
-    public String ToDotString(){
+    public String toDotString(){
         return "\"" + ID + "\\n" + name + " " + surname + "\\n" + GPA + "\"";
     }
 
